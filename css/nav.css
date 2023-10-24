@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+/*gnb*/
+header > .inner{position:relative;}
+nav{position:absolute; left:250px; top:20px;}
+
+nav ul{overflow:hidden;}
+nav ul li{float:left; font-size:17px; padding:0px 30px; font-weight:600; color:#121212; text-align:center;}
+nav ul li a{display:block; height:60px; line-height:60px; width:105px;}
+nav ul li a:hover{border-bottom:3px solid #e31937; color:#e31937;}
